@@ -13,8 +13,12 @@ railsアプリの共通化できるファイルとフォルダの一覧になり
   * ディレクトリ名をアプリ名に変更
   * プロジェクト内の`template_rails`をアプリ名のスネークケースに一括置換
   * プロジェクト内の`TemplateRails`をアプリ名のキャメルケース(1文字目も大文字)に一括置換
+  * database.yml.sampleからdatabase.ymlを複製
   ```
   bundle install
+  ```
+  ```
+  yarn install
   ```
   * リモートリポジトリを作成
   ```
