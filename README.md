@@ -2,6 +2,10 @@
 
 railsアプリの共通化できるファイルとフォルダの一覧になります。
 
+* バージョン
+  * ruby 3.3.0
+  * rails 7.1.3.2
+  
 * 使い方
   ```
   ghq get git@github.com:ryohakjae114/template_rails.git
