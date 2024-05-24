@@ -46,6 +46,7 @@ module TemplateRails
       g.test_framework :rspec,
         request_specs: false,
         view_specs: false,
+        model_specs: false
         helper_specs: false,
         routing_specs: false
     end
