@@ -21,7 +21,7 @@ Bundler.require(*Rails.groups)
 module TemplateRails
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
-    config.load_defaults 7.1
+    config.load_defaults 7.2
 
     # Please, add to the `ignore` list any other `lib` subdirectories that do
     # not contain `.rb` files, or that should not be reloaded or eager loaded.
@@ -44,11 +44,11 @@ module TemplateRails
     config.generators do |g|
       g.helper false
       g.test_framework :rspec,
-        request_specs: false,
-        view_specs: false,
-        model_specs: false,
-        helper_specs: false,
-        routing_specs: false
+                       request_specs: false,
+                       view_specs: false,
+                       model_specs: false,
+                       helper_specs: false,
+                       routing_specs: false
     end
   end
 end
