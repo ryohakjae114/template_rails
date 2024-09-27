@@ -5,12 +5,12 @@ default: &default
 
 development:
   <<: *default
-  database: ichiroc_test_development
+  database: template_rails_development
 
 test:
   <<: *default
-  database: ichiroc_test_test
+  database: template_rails_test
 
 production:
   <<: *default
-  database: ichiroc_test_production
+  database: template_rails_production
